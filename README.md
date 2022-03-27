@@ -41,6 +41,8 @@ _Theodore Levitt_ once said:
 “People don’t want to buy a quarter-inch drill. They want a quarter-inch hole.”
 ```
 
+mvn clean package -Dmaven.javadoc.skip=true -DskipTests -pl :submarine-spark-security -Pspark-2.4 -Pranger-1.2
+
 ### Goals of Submarine
 
 #### Model Training (Experiment)
