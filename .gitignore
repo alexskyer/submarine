@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs*/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+node_modules
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+env
+env3
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+.DS_Store
+.idea
+.mvn/
+mvnw
+mvnw.cmd
+*.iml
+*.gradle
+*.tgz
+*.tar.gz
+*.jar
+target
+dev-support/mini-submarine/database
+dev-support/pysubmarine/sdk
+submarine-workbench/workbench-web/node
+submarine-workbench/workbench-web/node_modules
+submarine-workbench/workbench-web/dist
+submarine-workbench/workbench-web/package-lock.json
+submarine-workbench/workbench-web/npm-debug.log*
+submarine-test/e2e/Driver
+
+# interpreter temp files
+derby.log
+submarine-workbench/interpreter/spark-interpreter/metastore_db/
+spark-1.*-bin-hadoop*
+.spark-dist
+
+# submarine-cloud
+submarine-cloud/vendor/*
+submarine-cloud/output/*
+submarine-cloud/hack/conf/*
+submarine-cloud/hack/output/*
+submarine-cloud/bin/*
+
+submarine-security/spark-security/dependency-reduced-pom.xml
+submarine-security/spark-security/derby.log
+
+# submarine-cloud-v2
+submarine-cloud-v2/vendor/*
+submarine-cloud-v2/submarine-operator
+submarine-cloud-v2/helm-charts/submarine-operator/charts/*
+
+# vscode file
+.project
+.classpath
+.settings
+.factorypath
+.vscode/settings.json
+.vscode/tasks.json
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# redundant logging files
+*.log
